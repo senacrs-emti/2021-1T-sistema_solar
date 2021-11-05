@@ -1,0 +1,140 @@
+header{
+    background-image: url(https://mega.ibxk.com.br/2021/03/29/29051442297003.jpg?ims=610x);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    height: 275px;
+}
+header h1{
+    padding: 70px;
+    padding-left: 100px;
+    color: white;
+}
+header p{
+    color: white;
+    font-size: 20px;
+}
+main{
+        background: rgb(0, 0, 0);
+        margin: 0;
+        padding: 0;
+        height: 210vmin;
+    }
+      
+      .object {
+        border-radius: 50%;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transform: translateY( 95vmin );
+        
+      }
+      
+      .p-orbit, #m-orbit{
+        border: 0.1vmin solid white;
+        opacity: 0,5;
+        background: transparent;
+      }
+      
+      #belt {
+        height: 107vmin;
+        width: 107vmin;
+        animation: spin 50s infinite linear;
+        margin-top: 90vmin;
+      }
+      
+      @keyframes spin{
+        0%{ transform: rotate(0deg) }
+        100%{ transform: rotate(360deg) }
+      }
+      
+      #m-orbit {
+        height: 8vmin;
+        width: 8vmin;
+      }
+      .planet, #moon {
+        z-index: 100;
+      }
+      
+      #sun {
+        height: 22vmin;
+        width: 22vmin;
+      }
+      
+      #moon {
+        height: 1vmin;
+        width: 1vmin;
+        background-color: white;
+      }
+      
+      #mercury {
+        height: 2vmin;
+        width: 2vmin;
+      }
+      
+      #venus {
+        height: 3vmin;
+        width: 3vmin;
+      }
+      
+      #earth {
+        height: 4vmin;
+        width: 4vmin;
+      }
+      
+      #mars {
+        height: 3.5vmin;
+        width: 3.5vmin;
+      }
+      
+      #jupiter {
+        height: 12vmin;
+        width: 12vmin;
+      }
+      
+      #saturn {
+        height: 12vmin;
+        width: 12vmin;
+        border-radius: 0%;
+      }
+      
+      #uranus {
+        height: 5vmin;
+        width: 5vmin;
+      }
+      
+      #neptune {
+        height: 4vmin;
+        width: 4vmin;
+      }
+
+footer{
+    background-color:red;
+    height: 200px
+}
+footer p{
+    color: white;
+    font-size: 15px;
+}
+.dropdown-item{
+  background-color: 	#D3D3D3;
+  color: black;
+  margin-top: 2px;
+}
+#pf{
+  background-color: white;
+  color:black;
+  margin: 5px;
+  float: left;
+  margin-top: 35px;
+}
+#contato{
+  background-color: white;
+  color: black;
+  float: right;
+  margin-top: 35px;
+  margin-right: 5px;
+}
